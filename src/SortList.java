@@ -222,3 +222,30 @@ public class SortList {
     		
     }
 }
+
+/*public static void main (String[] args) throws java.lang.Exception
+{
+	// your code goes here
+    int list[] = {2,4};
+    SortList.ListNode node;
+    SortList.ListNode head = new SortList.ListNode(3);
+    node = head;
+    for (int i: list)
+    {
+    	node.next = new SortList.ListNode(i);
+    	node = node.next;
+		node.next = null;
+    }
+	
+	SortList sort = new SortList();
+	head = sort.sortList(head);
+	System.out.print("The sorted list: \n" + head.val);
+	node = head.next;
+	while (node != null)
+	{
+		System.out.print(" " + node.val);
+		node = node.next;
+	}
+
+	
+}*/
