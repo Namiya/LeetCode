@@ -24,7 +24,7 @@ public class KthLagestNums {
 		int left = 0;
 		int right = 0;
 		for(int i = 1; i<list.size(); i++){
-			if(list.get(i)<=val){
+			if(list.get(i)<val){
 				leftList.add(list.get(i));
 				left++;
 			}
